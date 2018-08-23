@@ -12,9 +12,10 @@ class DisciplinaController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+     public function index()
     {
-        //
+        $disciplinas = Disciplina::all();
+        return view('disciplinas.index', compact('disciplinas'));
     }
 
     /**
