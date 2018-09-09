@@ -2,8 +2,13 @@
 
     <ul>
     @foreach ($disciplinas as $disciplina)
-    	<a href="/disciplinas/{{ $disciplina->id }}">
-        <li style="list-style-type: square; color: tomato;">{{ $disciplina->titulo }} </li>
+        <li>
+            <a href="/disciplinas/{{ $disciplina->id }}">
+                {{ $disciplina->titulo }} 
+            </a>
+            <br>
+            <a href="/disciplinas/{{ $disciplina->id }}/edit"> Editar </a>
+        </li>
     @endforeach
     </ul>
 
