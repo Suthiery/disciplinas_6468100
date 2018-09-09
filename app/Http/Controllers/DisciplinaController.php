@@ -53,9 +53,9 @@ class DisciplinaController extends Controller
      */
     public function show(Disciplina $disciplina)
     {
-         return view('disciplinas.show',compact('disciplina'));
-     }
-
+        return view('disciplinas.show',compact('disciplina'));
+    }
+    
     /**
      * Show the form for editing the specified resource.
      *

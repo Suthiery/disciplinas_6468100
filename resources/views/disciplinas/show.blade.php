@@ -1,2 +1,2 @@
-<H1>{{ $disciplina->titulo}}</H1>
-<p>{{ $disciplina->ementa}}</p>
+    <h1>{{ $disciplina->titulo }}</h1>
+    <p>{{ $disciplina->ementa }}</p>
