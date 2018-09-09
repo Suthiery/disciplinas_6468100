@@ -12,10 +12,9 @@ class DisciplinaController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-     public function index()
+    public function index()
     {
-        $disciplinas = Disciplina::all();
-        return view('disciplinas.index', compact('disciplinas'));
+        //
     }
 
     /**
@@ -25,7 +24,7 @@ class DisciplinaController extends Controller
      */
     public function create()
     {
-        return view('disciplinas.create');
+        //
     }
 
     /**
@@ -36,13 +35,7 @@ class DisciplinaController extends Controller
      */
     public function store(Request $request)
     {
-        $disciplina = new Disciplina;
-
-        //Campos da tabela
-        $disciplina->titulo = $request->titulo;
-        $disciplina->ementa = $request->ementa;
-        $disciplina->save();
-        return redirect('/');
+        //
     }
 
     /**
@@ -53,8 +46,8 @@ class DisciplinaController extends Controller
      */
     public function show(Disciplina $disciplina)
     {
-         return view('disciplinas.show',compact('disciplina'));
-     }
+        //
+    }
 
     /**
      * Show the form for editing the specified resource.
