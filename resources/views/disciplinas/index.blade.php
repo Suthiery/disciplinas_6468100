@@ -1,4 +1,4 @@
-    <a href="/disciplinas/create"> Cadastrar Disciplina</a>
+   	<a href="/disciplinas/create">Cadastrar nova disciplina</a>
 
     <ul>
     @foreach ($disciplinas as $disciplina)
