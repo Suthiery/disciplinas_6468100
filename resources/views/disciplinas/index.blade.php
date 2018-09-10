@@ -20,4 +20,4 @@
         </li>
     @endforeach
     </ul>
-    @endsection
+@endsection

@@ -1,3 +1,4 @@
+
 @extends('layouts.master')
 @section ('content')
 
@@ -8,4 +9,4 @@
         Ementa: <textarea name="ementa"> {{ $disciplina->ementa }} </textarea>
         <button type="submit"> Salvar </button>
     </form>
-    @endsection
+ @endsection
