@@ -1,3 +1,6 @@
+@extends('layouts.master')
+@section ('content')
+
     <a href="/disciplinas/create"> Cadastrar Disciplina</a>
 
     <ul>
@@ -17,3 +20,4 @@
         </li>
     @endforeach
     </ul>
+    @endsection
